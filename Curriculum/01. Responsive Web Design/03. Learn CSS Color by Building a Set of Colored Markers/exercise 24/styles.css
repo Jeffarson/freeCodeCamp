@@ -1,0 +1,25 @@
+h1 {
+    text-align: center;
+}
+
+.container {
+    background-color: rgb(0, 0, 0);
+}
+
+.marker {
+    width: 200px;
+    height: 25px;
+    margin: 10px auto;
+}
+
+.one {
+    background-color: rgba(255, 0, 0);
+}
+
+.two {
+    background-color: rgba(0, 127, 0);
+}
+
+.three {
+    background-color: rgba(0, 0, 255);
+}
