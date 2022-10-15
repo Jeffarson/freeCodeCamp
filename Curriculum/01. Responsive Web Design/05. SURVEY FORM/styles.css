@@ -1,0 +1,90 @@
+/* Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;800&display=swap'); /* Google Fonts: Poppins - Regular 400 */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@800&display=swap'); /* Google Fonts: Poppins - Extrabold 800 */
+
+body {
+    color: #8e44ad;
+    font-family: 'Poppins', sans-serif;
+}
+
+#title, #description {
+    text-align: center;
+}
+
+fieldset {
+    background-color: #ecf0f1;
+    margin: 0 auto;
+    max-width: 500px;
+    min-width: 500px;
+    width: 60vw;
+    padding-bottom: 2em;
+    border-radius: 2em;
+    border: 1px solid #8e44ad;
+}
+
+hr {
+    border-top: 1px solid #8e44ad;
+    margin-top: 16px;
+}
+
+#survey-form {
+    padding: 2rem 0;
+}
+
+label {
+    display: block;
+    margin: 0.5rem 0;
+}
+
+/* Input & textarea */
+input, textarea {
+  background-color: #dfe6e9;
+  border: 1px solid #ecf0f1;
+  color: #8e44ad;
+}
+
+textarea {
+    height: 72px;
+}
+
+input[type="email"],
+input[type="number"],
+input[type="text"],
+textarea,
+select {
+    margin: 4px 0 0 0;
+    width: 100%;
+    min-height: 2em;
+  }
+
+input[type="checkbox"],
+input[type="radio"] {
+    display: block;
+}
+
+/* Select & option */
+select {
+    background-color: #ecf0f1;
+    color: #8e44ad;
+    font-family: 'Poppins', sans-serif;
+}
+
+option.empty {
+    background-color: #bdc3c7;
+}
+
+/* Button */
+button {
+    background-color:#ecf0f1;
+    color:#8e44ad;
+    margin-top: 16px;
+    padding: 8px 16px;
+    border:1px solid #8e44ad;
+    border-radius: 2em;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #8e44ad;
+    color: #ecf0f1;
+}
